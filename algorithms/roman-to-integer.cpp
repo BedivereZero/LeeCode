@@ -11,14 +11,14 @@ class Solution {
 						break;
 					case 'V':
 						result += 5;
-						if(pre) {
+						if(pre == 1) {
 							result -= 2 * pre;
 							pre = 0;
 						}
 						break;
 					case 'X':
 						result += 10;
-						if(pre) {
+						if(pre == 1) {
 							result -= 2 * pre;
 							pre = 0;
 						} else {
@@ -27,14 +27,14 @@ class Solution {
 						break;
 					case 'L':
 						result += 50;
-						if(pre) {
+						if(pre == 10) {
 							result -= 2 * pre;
 							pre = 0;
 						}
 						break;
 					case 'C':
 						result += 100;
-						if(pre) {
+						if(pre == 10) {
 							result -= 2 * pre;
 							pre = 0;
 						} else {
@@ -43,14 +43,14 @@ class Solution {
 						break;
 					case 'D':
 						result += 500;
-						if(pre) {
+						if(pre == 100) {
 							result -= 2 * pre;
 							pre = 0;
 						}
 						break;
 					case 'M':
 						result += 1000;
-						if(pre) {
+						if(pre == 100) {
 							result -= 2 * pre;
 							pre = 0;
 						} else {
