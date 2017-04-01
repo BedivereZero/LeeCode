@@ -4,7 +4,7 @@ class Solution {
 			int result = 0;
 			int pre = 0;
 			for(int i = 0; i < s.length(); i++) {
-				switch s[i] {
+				switch(s[i]) {
 					case 'I':
 						result += 1;
 						pre = 1;
