@@ -1,6 +1,12 @@
 int climbStairs(int n) {
-	if (n < 3)
-		return n;
-	else
-		return climbStairs(n - 1) + climbStairs(n - 2);
+	int i = 0;
+	int s = 0;
+	int *p = (int *) malloc(n * sizeof(int));
+	p[0] = 1;
+	p[1] = 2;
+	for (i = 2; i < n; i++)
+		p[i] = p[i - 1] + p[i - 2];
+	s = p[n - 1];
+	free(p);
+	return s;
 }
