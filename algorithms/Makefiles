@@ -1,2 +1,2 @@
-test: test.cpp
-	g++ -o test test.cpp
+test: test.c sqrtx.c
+	gcc -o test test.c
