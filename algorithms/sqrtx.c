@@ -1,16 +1,11 @@
 int mySqrt(int x) {
-	int a = 0;
-	int b = x;
-	int c = 0;
-	while (a < b - 1) {
-		c = (a + b) / 2;
-		if (c * c < x)
-			a = c;
-		else
-			b = c;
+	int a = 1;
+	int b = 1;
+	if (x == 1)
+		return 1;
+	while (a != b) {
+		a = b;
+		b = a / 2 + x / a / 2;
 	}
-	if (x < b * b)
-		return a;
-	else
-		return b;
+	return a;
 }
