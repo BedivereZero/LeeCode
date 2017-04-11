@@ -16,4 +16,4 @@
 - [ ] Sqrt(x)
 - [X] Climbing Stairs
 - [X] Remove Duplicates from Sorted List
-- [ ] Merge Sorted Array
+- [X] Merge Sorted Array
