@@ -15,3 +15,4 @@
 - [X] Length of Last Word
 - [ ] Sqrt(x)
 - [X] Climbing Stairs
+- [ ] Remove Duplicates from Sorted List
