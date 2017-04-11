@@ -24,4 +24,4 @@
 - [X] Path Sum
 - [ ] Pascal's Triangle
 - [X] Best Time to Buy and Sell Stock
-- [ ] Single Number
+- [X] Single Number
