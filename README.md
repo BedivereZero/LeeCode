@@ -17,4 +17,4 @@
 - [X] Climbing Stairs
 - [X] Remove Duplicates from Sorted List
 - [X] Merge Sorted Array
-- [ ] Same Tree
+- [X] Same Tree
