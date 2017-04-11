@@ -14,4 +14,4 @@
 - [ ] Maximum Subarray
 - [X] Length of Last Word
 - [ ] Sqrt(x)
-- [ ] Climbing Stairs
+- [X] Climbing Stairs
