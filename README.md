@@ -21,3 +21,4 @@
 - [ ] Symmetric Tree
 - [X] Maximum Depth of Binary Tree
 - [ ] Balanced Binary Tree
+- [ ] Path Sum
