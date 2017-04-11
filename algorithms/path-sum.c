@@ -8,6 +8,8 @@
  */
 bool hasPathSum(struct TreeNode* root, int sum) {
 	if (root == NULL)
-		return sum == 0;
+		return false;
+	if (root->right == NULL && root->left == NULL)
+		return root->val == sum;
 	return hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
 }
