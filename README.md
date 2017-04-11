@@ -22,3 +22,4 @@
 - [X] Maximum Depth of Binary Tree
 - [ ] Balanced Binary Tree
 - [X] Path Sum
+- [ ] Pascal's Triangle
