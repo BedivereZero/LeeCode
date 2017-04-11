@@ -19,4 +19,4 @@
 - [X] Merge Sorted Array
 - [X] Same Tree
 - [ ] Symmetric Tree
-- [ ] Maximum Depth of Binary Tree
+- [X] Maximum Depth of Binary Tree
