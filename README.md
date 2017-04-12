@@ -26,3 +26,4 @@
 - [X] Best Time to Buy and Sell Stock
 - [X] Single Number
 - [X] Two Sum II - Input array is sorted
+- [ ] Reverse Bits
