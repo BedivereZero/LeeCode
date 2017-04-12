@@ -25,3 +25,4 @@
 - [ ] Pascal's Triangle
 - [X] Best Time to Buy and Sell Stock
 - [X] Single Number
+- [ ] Two Sum II - Input array is sorted
