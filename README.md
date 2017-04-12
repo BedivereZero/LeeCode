@@ -27,3 +27,4 @@
 - [X] Single Number
 - [X] Two Sum II - Input array is sorted
 - [ ] Reverse Bits
+- [ ] Number of 1 Bits
