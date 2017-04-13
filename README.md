@@ -33,4 +33,4 @@
 - [ ] Count Primes
 - [ ] Isomorphic Strings
 - [ ] Reverse Linked List
-- [ ] Contains Duplicate
+- [X] Contains Duplicate
