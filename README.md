@@ -29,4 +29,4 @@
 - [ ] Reverse Bits
 - [ ] Number of 1 Bits
 - [ ] Happy Number
-- [ ] Remove Linked List Elements
+- [X] Remove Linked List Elements
