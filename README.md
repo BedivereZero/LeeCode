@@ -30,3 +30,4 @@
 - [ ] Number of 1 Bits
 - [ ] Happy Number
 - [X] Remove Linked List Elements
+- [ ] Count Primes
