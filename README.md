@@ -37,3 +37,4 @@
 - [ ] Contains Duplicate II
 - [X] Invert Binary Tree
 - [X] Power of Two
+- [X] Valid Anagram
