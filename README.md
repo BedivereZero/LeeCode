@@ -36,3 +36,4 @@
 - [X] Contains Duplicate
 - [ ] Contains Duplicate II
 - [X] Invert Binary Tree
+- [X] Power of Two
