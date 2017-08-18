@@ -2,39 +2,40 @@
 
 ## Algorithms
 
-- [X] Two Sum
-- [X] Reverse Integer
-- [X] Palindrome Number
-- [X] Roman to Integer
-- [X] Merge Two Sorted Lists
-- [X] Remove Duplicates from Sorted Array
-- [X] Remove Element
-- [X] Implement strStr()
-- [X] Search Insert Position
-- [ ] Maximum Subarray
-- [X] Length of Last Word
-- [ ] Sqrt(x)
-- [X] Climbing Stairs
-- [X] Remove Duplicates from Sorted List
-- [X] Merge Sorted Array
-- [X] Same Tree
-- [ ] Symmetric Tree
-- [X] Maximum Depth of Binary Tree
-- [ ] Balanced Binary Tree
-- [X] Path Sum
-- [ ] Pascal's Triangle
-- [X] Best Time to Buy and Sell Stock
-- [X] Single Number
-- [X] Two Sum II - Input array is sorted
-- [ ] Reverse Bits
-- [ ] Number of 1 Bits
-- [ ] Happy Number
-- [X] Remove Linked List Elements
-- [ ] Count Primes
-- [ ] Isomorphic Strings
-- [ ] Reverse Linked List
-- [X] Contains Duplicate
-- [ ] Contains Duplicate II
-- [X] Invert Binary Tree
-- [X] Power of Two
-- [X] Valid Anagram
+- [X] 0001.Two Sum
+- [X] 0007.Reverse Integer
+- [X] 0009.Palindrome Number
+- [X] 0013.Roman to Integer
+- [X] 0021.Merge Two Sorted Lists
+- [X] 0026.Remove Duplicates from Sorted Array
+- [X] 0027.Remove Element
+- [X] 0028.Implement strStr()
+- [X] 0035.Search Insert Position
+- [ ] 0053.Maximum Subarray
+- [X] 0058.Length of Last Word
+- [ ] 0069.Sqrt(x)
+- [X] 0070.Climbing Stairs
+- [X] 0083.Remove Duplicates from Sorted List
+- [X] 0088.Merge Sorted Array
+- [X] 0100.Same Tree
+- [ ] 0101.Symmetric Tree
+- [X] 0104.Maximum Depth of Binary Tree
+- [ ] 0110.Balanced Binary Tree
+- [X] 0112.Path Sum
+- [ ] 0118.Pascal's Triangle
+- [X] 0121.Best Time to Buy and Sell Stock
+- [X] 0136.Single Number
+- [X] 0167.Two Sum II - Input array is sorted
+- [ ] 0190.Reverse Bits
+- [ ] 0191.Number of 1 Bits
+- [ ] 0202.Happy Number
+- [X] 0203.Remove Linked List Elements
+- [ ] 0204.Count Primes
+- [ ] 0205.Isomorphic Strings
+- [ ] 0206.Reverse Linked List
+- [X] 0217.Contains Duplicate
+- [ ] 0219.Contains Duplicate II
+- [X] 0226.Invert Binary Tree
+- [X] 0231.Power of Two
+- [X] 0242.Valid Anagram
+- [ ] 0345.Reverse Vowels of a String
