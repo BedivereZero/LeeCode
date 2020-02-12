@@ -31,3 +31,6 @@
 # Test
 test.*
 test
+
+# VSCode config
+.vscode
