@@ -12,3 +12,7 @@
 
 - Transfer int to str.
 - Use `list[::-1]` to get reverse.
+
+### Golang
+
+- Modulus operation `%` preserves symbols
