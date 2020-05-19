@@ -13,6 +13,10 @@
 - Numbers less than zero are not palindrome.
 - Use `list[::-1]` get reversal.
 
+### Golang
+
+- Use modulus to get reversal
+
 ## [0007] Reverse interger - 2020-05-18
 
 ### Python3
