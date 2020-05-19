@@ -8,22 +8,14 @@
 
 ## [0009] Palindrome number - 2020-05-19
 
-### Python3
-
-- Numbers less than zero are not palindrome.
-- Use `list[::-1]` get reversal.
-
-### Golang
-
-- Use modulus to get reversal
+- [Python3] Numbers less than zero are not palindrome.
+- [Python3] Use `list[::-1]` get reversal.
+- [Golang] Use modulus to get reversal.
+- [Golang] Numbers endswith zero are not palidrome.
+- [Golang] Reverse half.
 
 ## [0007] Reverse interger - 2020-05-18
 
-### Python3
-
-- Transfer int to str.
-- Use `list[::-1]` to get reverse.
-
-### Golang
-
-- Modulus operation `%` preserves symbols
+- [Python3] Transfer int to str.
+- [Python3] Use `list[::-1]` to get reverse.
+- [Golang] Modulus operation `%` preserves symbols
