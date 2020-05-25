@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 3        | 492   |
+| Easy       | 5        | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0014 - Longest common prefix
+
+- [Golang] Compare the string and the last of sorted strings?
 
 ## 0013 - Roman to integer
 
