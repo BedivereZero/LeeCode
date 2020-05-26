@@ -2,9 +2,17 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 5        | 492   |
+| Easy       | 6        | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0020 - Valid parentheses
+
+- [Python3] Use list as stack
+- [Golang] Create map: `map[type]type`
+- [Golang] Traversing list via `for index, element := range list`
+- [Golang] Difference between `byte` and `runc`
+- [Golang] Append element to list via `append()`
 
 ## 0014 - Longest common prefix
 
