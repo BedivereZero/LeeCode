@@ -2,9 +2,14 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 6        | 492   |
+| Easy       | 7        | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0021 - Merge two sorted lists
+
+- [Python3] If one list is empty, then reset is the other
+- [Golang] Create point: `var head *ListNode`, `head := &ListNode{}`
 
 ## 0020 - Valid parentheses
 
