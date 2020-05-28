@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 7        | 492   |
+| Easy       | 8        | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0026 - Remove duplicates from sorted array
+
+- [Pytnon3] Two points.
 
 ## 0021 - Merge two sorted lists
 
