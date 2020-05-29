@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 9        | 492   |
+| Easy       | 10       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0028 - Implement strstr
+
+- [Python3] $O(n^2)$
 
 ## 0027 - Remove element
 
