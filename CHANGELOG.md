@@ -8,7 +8,8 @@
 
 ## 0028 - Implement strstr
 
-- [Python3] $O(n^2)$
+- [Python3] $O(m * (m - n))$
+- [Golang] TODO: KMP
 
 ## 0027 - Remove element
 
