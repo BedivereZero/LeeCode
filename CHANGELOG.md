@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 8        | 492   |
+| Easy       | 9        | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0027 - Remove element
+
+- [Python3] Two points, one from head, the other from tail.
 
 ## 0026 - Remove duplicates from sorted array
 
