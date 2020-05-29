@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 10       | 492   |
+| Easy       | 11       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0035 - Search Insert Position
+
+- **Binary Search**
 
 ## 0028 - Implement strstr
 
