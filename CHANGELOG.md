@@ -9,6 +9,7 @@
 ## 0027 - Remove element
 
 - [Python3] Two points, one from head, the other from tail.
+- [Python3] No need to exchange variables.
 
 ## 0026 - Remove duplicates from sorted array
 
