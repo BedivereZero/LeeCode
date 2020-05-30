@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 11       | 492   |
+| Easy       | 12       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0038 - Count and say
+
+- [Golang] Use `bytes.Buffer` save temp string.
 
 ## 0035 - Search Insert Position
 
