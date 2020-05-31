@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 12       | 492   |
+| Easy       | 13       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0053 - Maximum subarray
+
+- DP: F(n): The maximum value of the subarray ending in the nth element.
 
 ## 0038 - Count and say
 
