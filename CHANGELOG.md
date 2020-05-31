@@ -6,6 +6,11 @@
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
 
+## 0066 Plus one
+
+- Reverse array
+- [Golang] `func reverse(input []int) []int`
+
 ## 0058 Length of last word
 
 - Trailing space
