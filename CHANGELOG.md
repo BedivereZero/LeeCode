@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 13       | 492   |
+| Easy       | 14       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0058 Length of last word
+
+- Trailing space
 
 ## 0053 - Maximum subarray
 
