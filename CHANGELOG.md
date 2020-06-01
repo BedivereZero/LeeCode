@@ -2,16 +2,21 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 14       | 492   |
+| Easy       | 16       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
 
-## 0066 Plus one
+## 0067 - Add binary
+
+- No reverse
+- Full adder
+
+## 0066 - Plus one
 
 - Reverse array
 - [Golang] `func reverse(input []int) []int`
 
-## 0058 Length of last word
+## 0058 - Length of last word
 
 - Trailing space
 
