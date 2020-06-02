@@ -9,6 +9,8 @@
 ## 0005 - Longest palindromic substring
 
 - DP: F(i, j) = F(i + 1, j - 1) && s[i] == s[j]. When j - i < 2, F(i, j) = s[i] == s[j]
+- [Golang] Create Two-dimensional array via `make([]int, m * n)`
+- TODO: Manacher's algorithm
 
 ## 0088 - Merge sorted array
 
