@@ -7,8 +7,9 @@
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         now = head
-        while now is not None:
-            while now.next is not None and now.val == now.next.val:
+        while now and now.next:
+            if now.val == now.next:
                 now.next = now.next.next
-            now = now.next
+            else:
+                now = now.next
         return head
