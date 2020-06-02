@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 18       | 492   |
+| Easy       | 19       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0083 - Remove duplicates from sorted list
+
+- Skip multi nodes
 
 ## 0070 - Climbing stairs
 
