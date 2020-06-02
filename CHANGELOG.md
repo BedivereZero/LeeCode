@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 2        | 837   |
+| Medium     | 3        | 837   |
 | Hard       | 0        | 328   |
+
+## 0005 - Longest palindromic substring
+
+- DP: F(i, j) = F(i + 1, j - 1) && s[i] == s[j]. When j - i < 2, F(i, j) = s[i] == s[j]
 
 ## 0088 - Merge sorted array
 
