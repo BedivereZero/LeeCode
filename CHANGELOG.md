@@ -2,9 +2,14 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 16       | 492   |
+| Easy       | 17       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0069 - Sqrtx
+
+- Binary search
+- Heron's formula
 
 ## 0067 - Add binary
 
