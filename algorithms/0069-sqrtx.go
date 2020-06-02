@@ -1,27 +1,16 @@
-package main
-
-import "fmt"
+package algorithms
 
 func mySqrt(x int) int {
 	if x < 2 {
 		return x
 	}
-	l, r := 0, x
-	for l < r - 1 {
-		m := (l + r) /2
-		if m * m == x {
-			return m
+	a := float64(x) / 2
+	for true {
+		b := 0.5 * (a + float64(x) / a)
+		if int(a) == int(b) {
+			break
 		}
-		if m * m < x {
-			l = m
-		} else {
-			r = m
-		}
+		a = b
 	}
-	return l
-}
-
-
-func main() {
-	fmt.Println(mySqrt(8))
+	return int(a)
 }
