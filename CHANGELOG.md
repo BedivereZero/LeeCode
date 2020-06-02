@@ -2,9 +2,14 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 17       | 492   |
+| Easy       | 18       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0070 - Climbing stairs
+
+- DP: F(n) = F(n - 1) - F(n - 2)
+- TODO: Binet's formula
 
 ## 0069 - Sqrtx
 
