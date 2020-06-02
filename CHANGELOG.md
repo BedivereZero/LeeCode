@@ -2,9 +2,13 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 19       | 492   |
+| Easy       | 20       | 492   |
 | Medium     | 2        | 837   |
 | Hard       | 0        | 328   |
+
+## 0088 - Merge sorted array
+
+- Insert element from tail
 
 ## 0083 - Remove duplicates from sorted list
 
