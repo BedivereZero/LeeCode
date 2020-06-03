@@ -1,7 +1,5 @@
 package algorithms
 
-import "fmt"
-
 func myAtoi(str string) int {
 	int_min, int_max := -1 << 31, 1 << 31 - 1
 	h := -1
@@ -19,12 +17,16 @@ func myAtoi(str string) int {
 		return 0
 	}
 
-	negative := str[h] == '-'
-
-	// fmt.Println("Negative:", negative)
-
-	if str[h] == '+' || str[h] == '-' {
+	var coefficient int
+	switch str[h] {
+	case '+':
+		coefficient = 1
 		h++
+	case '-':
+		coefficient = -1
+		h++
+	case '0', '1', '2', '3', '4', '5', '6', '7', '8', '9':
+		coefficient = 1
 	}
 
 	t := -1
@@ -43,14 +45,11 @@ func myAtoi(str string) int {
 
 	// fmt.Println("h:", h, "t:", t)
 
-	integer := int(str[h] - '0')
-	if negative {
-		integer = -1 * integer
-	}
+	integer := coefficient * int(str[h] - '0')
 
 	for _, c := range str[h+1:t] {
 		i := int(c - '0')
-		if negative {
+		if coefficient < 0 {
 			if integer < int_min / 10 {
 				return int_min
 			} else {
