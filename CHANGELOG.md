@@ -3,8 +3,14 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 3        | 837   |
+| Medium     | 4        | 837   |
 | Hard       | 0        | 328   |
+
+## 0008 - String to integer atoi
+
+- Detect `a + b` out of the range via comparing `a` and `INT_MAX - b`
+- Detect `a * b` out of the range via comparing `a` and `INT_MAX / b`
+- Integer string startswith `+`, `-` or neither
 
 ## 0005 - Longest palindromic substring
 
