@@ -3,8 +3,13 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 4        | 837   |
+| Medium     | 6        | 837   |
 | Hard       | 0        | 328   |
+
+## 0011 - Container with most water
+
+- Two points
+- Update `height` every times
 
 ## 0008 - String to integer atoi
 
