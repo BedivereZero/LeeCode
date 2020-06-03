@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 6        | 837   |
+| Medium     | 7        | 837   |
 | Hard       | 0        | 328   |
+
+## 0012 - Integer to roman
+
+- Linear
 
 ## 0011 - Container with most water
 
