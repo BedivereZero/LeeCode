@@ -10,7 +10,7 @@
 
 - Two points `a` and `b`. Point `a` is `n` steps further than point `b`.
 - If point `a` is None, it means the length of list is `n`. Remove the first node, that is, return `head.next`
-- Move two points to next util `a` reach end (`a` is `None`).
+- Move two points to next util `a` reach end (`a.next` is `None`).
 - Remove point `b.next` when point `a` is `None`.
 
 ## 0012 - Integer to roman
