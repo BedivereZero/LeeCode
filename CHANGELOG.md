@@ -3,8 +3,15 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 7        | 837   |
+| Medium     | 8        | 837   |
 | Hard       | 0        | 328   |
+
+## 0019 - Remove nth node from end of list
+
+- Two points `a` and `b`. Point `a` is `n` steps further than point `b`.
+- If point `a` is None, it means the length of list is `n`. Remove the first node, that is, return `head.next`
+- Move two points to next util `a` reach end (`a` is `None`).
+- Remove point `b.next` when point `a` is `None`.
 
 ## 0012 - Integer to roman
 
