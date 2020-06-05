@@ -10,6 +10,7 @@
 
 - Sort array
 - Two points
+- [Goalng] Define 2D array via `var result [][]int`
 
 ## 0019 - Remove nth node from end of list
 
