@@ -3,8 +3,13 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 8        | 837   |
+| Medium     | 9        | 837   |
 | Hard       | 0        | 328   |
+
+## 0015 - 3Sum
+
+- Sort array
+- Two points
 
 ## 0019 - Remove nth node from end of list
 
