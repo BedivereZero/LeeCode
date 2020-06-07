@@ -6,6 +6,10 @@
 | Medium     | 9        | 837   |
 | Hard       | 0        | 328   |
 
+## 0017 - Letter combinations of a phone number
+
+- Strings contain '1' return `[]`
+
 ## 0015 - 3Sum
 
 - Sort array
