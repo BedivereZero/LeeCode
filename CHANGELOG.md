@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 9        | 837   |
+| Medium     | 11       | 837   |
 | Hard       | 0        | 328   |
+
+## 0016 - 3Sum closet
+
+- Two points
 
 ## 0017 - Letter combinations of a phone number
 
