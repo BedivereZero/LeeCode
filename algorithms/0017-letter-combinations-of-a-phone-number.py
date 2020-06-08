@@ -1,6 +1,5 @@
 class Solution:
-    # def letterCombinations(self, digits: str) -> List[str]:
-    def letterCombinations(self, digits):
+    def letterCombinations(self, digits: str) -> List[str]:
         chs = {
             '2': 'abc',
             '3': 'def',
@@ -23,7 +22,3 @@ class Solution:
                     cur.append(e + c)
             out = cur
         return out
-
-
-if __name__ == "__main__":
-    print(Solution().letterCombinations('123'))
