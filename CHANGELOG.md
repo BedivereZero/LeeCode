@@ -9,6 +9,7 @@
 ## 0016 - 3Sum closet
 
 - Two points
+- [Golang] Sort array via `sort.Ints`
 
 ## 0017 - Letter combinations of a phone number
 
