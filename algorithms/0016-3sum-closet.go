@@ -1,3 +1,5 @@
+package algorithms
+
 func threeSumClosest(nums []int, target int) int {
 	sort.Ints(nums)
 	closet_distance := -1
