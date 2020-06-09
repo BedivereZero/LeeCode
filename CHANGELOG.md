@@ -6,6 +6,11 @@
 | Medium     | 11       | 837   |
 | Hard       | 0        | 328   |
 
+## 0018 - 4Sum
+
+- Two points
+- $O(N^3)$
+
 ## 0016 - 3Sum closet
 
 - Two points
