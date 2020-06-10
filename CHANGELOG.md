@@ -22,6 +22,10 @@
 - Return `head.next` if head is not null
 - First's next is third if fourth does not exist
 
+## 0022 - Generate parentheses
+
+- DFS
+
 ## 0018 - 4Sum
 
 - Two points
