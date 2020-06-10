@@ -6,13 +6,18 @@
 | Medium     | 15       | 837   |
 | Hard       | 0        | 328   |
 
-## 0031 Next permutation
+## 0033 - Search in rotated sorted array
+
+- Get rotate pivot via binary-search
+- Binary-search in two parts
+
+## 0031 - Next permutation
 
 1. Found first element not increase from tail
 2. Swap element if found
 3. Sort elements after it
 
-## 0024 Swap nodes in pairs
+## 0024 -  Swap nodes in pairs
 
 - Return `head.next` if head is not null
 - First's next is third if fourth does not exist
