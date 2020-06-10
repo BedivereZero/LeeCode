@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 15       | 837   |
+| Medium     | 16       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0033 - Search in rotated sorted array
