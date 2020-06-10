@@ -3,8 +3,13 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 11       | 837   |
+| Medium     | 14       | 837   |
 | Hard       | 0        | 328   |
+
+## 0024 Swap nodes in pairs
+
+- Return `head.next` if head is not null
+- First's next is third if fourth does not exist
 
 ## 0018 - 4Sum
 
