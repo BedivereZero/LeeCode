@@ -3,8 +3,14 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 14       | 837   |
+| Medium     | 15       | 837   |
 | Hard       | 0        | 328   |
+
+## 0031 Next permutation
+
+1. Found first element not increase from tail
+2. Swap element if found
+3. Sort elements after it
 
 ## 0024 Swap nodes in pairs
 
