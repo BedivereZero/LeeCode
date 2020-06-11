@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 17       | 837   |
+| Medium     | 18       | 837   |
 | Hard       | 0        | 328   |
+
+## 0039 - Combination sum
+
+- DFS, branchs = candidates
 
 ## 0034 - Find first and last position of element in sorted array
 
