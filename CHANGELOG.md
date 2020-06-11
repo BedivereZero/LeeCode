@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 20       | 492   |
-| Medium     | 16       | 837   |
+| Medium     | 17       | 837   |
 | Hard       | 0        | 328   |
+
+## 0034 - Find first and last position of element in sorted array
+
+- Binary search twice
 
 ## 0033 - Search in rotated sorted array
 
