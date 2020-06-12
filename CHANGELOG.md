@@ -2,9 +2,17 @@
 
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
-| Easy       | 20       | 492   |
+| Easy       | 21       | 492   |
 | Medium     | 18       | 837   |
 | Hard       | 0        | 328   |
+
+## 0415 - Add strings
+
+- Full adder
+- [Golang] Create array via `make([]int, n)`
+- [Golang] Combine bytes to string via `types.Buffer`
+  - `Buffer.WriteByte`: Write byte to end
+  - `Buffer.String`: Get as string
 
 ## 0039 - Combination sum
 
