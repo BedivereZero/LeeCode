@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 18       | 837   |
+| Medium     | 19       | 837   |
 | Hard       | 0        | 328   |
+
+## 0055 - Jump game
+
+- DP
 
 ## 0415 - Add strings
 
