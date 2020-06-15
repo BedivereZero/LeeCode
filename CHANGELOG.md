@@ -21,6 +21,7 @@
 ## 0039 - Combination sum
 
 - DFS, branchs = candidates
+- [Golang] Copy slice via `copy(dst, src)`
 
 ## 0034 - Find first and last position of element in sorted array
 

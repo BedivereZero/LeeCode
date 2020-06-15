@@ -1,34 +1,25 @@
-package main
+package algorithms
 
 import "fmt"
 
-func main() {
-	candidates := []int {2, 3, 5}
-	target := 8
-	for _, each := range combinationSum(candidates, target) {
-		fmt.Println(each)
-	}
-}
-
 func combinationSum(candidates []int, target int) [][]int {
-	return search(candidates, target, []int {})
+	sort.Ints(candidates)
+	var results [][]int
+	search(&results, candidates, target, []int {})
+	return results
 }
 
-func search(candidates []int, target int, current []int) [][]int {
+func search(resultsPoint *[][]int, candidates []int, target int, current []int){
 	if target == 0 {
 		new := make([]int, len(current))
-		for i, e := range current {
-			new[i] = e
-		}
-		return [][]int {new}
+		copy(new, current)
+		*resultsPoint = append(*resultsPoint, new)
+		return
 	}
 	if target < 0 {
-		return [][]int {}
+		return
 	}
-	var result [][]int
 	for point, each := range candidates {
-		cur := search(candidates[point:], target - each, append(current, each))
-		result = append(result, cur...)
+		search(resultsPoint, candidates[point:], target - each, append(current, each))
 	}
-	return result
 }
