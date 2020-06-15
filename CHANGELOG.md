@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 19       | 837   |
+| Medium     | 20       | 837   |
 | Hard       | 0        | 328   |
+
+## 0040 - Combination sum ii
+
+- DFS
 
 ## 0055 - Jump game
 
