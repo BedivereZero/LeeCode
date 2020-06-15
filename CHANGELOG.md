@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 20       | 837   |
+| Medium     | 21       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0043 - Permutations
