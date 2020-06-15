@@ -3,15 +3,20 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 21       | 837   |
+| Medium     | 22       | 837   |
 | Hard       | 0        | 328   |
+
+## 0047 - Permutations II
+
+- DFS
+- Skip on branches
 
 ## 0043 - Permutations
 
 - DFS
 - [Golang]: Not use `append()` in params, why?
 
-## 0040 - Combination sum ii
+## 0040 - Combination sum II
 
 - DFS
 
