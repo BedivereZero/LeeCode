@@ -1,14 +1,4 @@
-package main
-// package algorithms
-
-import "fmt"
-
-func main() {
-	s := []int {1, 2 ,3}
-	for key, val := range permute(s) {
-		fmt.Println(key, val)
-	}
-}
+package algorithms
 
 func permute(nums []int) [][]int {
 	var result [][] int
@@ -23,7 +13,6 @@ func search(resultPoint *[][]int, current *[]int, nums []int) {
 		copy(tmp, *current)
 		*resultPoint = append(*resultPoint, tmp)
 	}
-	fmt.Println(*current)
 	for index, value := range nums {
 		*current = append(*current, value)
 		var next []int
