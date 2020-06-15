@@ -6,6 +6,11 @@
 | Medium     | 20       | 837   |
 | Hard       | 0        | 328   |
 
+## 0043 - Permutations
+
+- DFS
+- [Golang]: Not use `append()` in params, why?
+
 ## 0040 - Combination sum ii
 
 - DFS
