@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 23       | 837   |
+| Medium     | 24       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -157,6 +157,11 @@
 ## 0048 - Rotate image
 
 - Split 4 parts
+
+## 0049 - Group anagrams
+
+- Quick sort
+- Transform string to number, sort and base-26 to base-10
 
 ## 0053 - Maximum subarray
 
