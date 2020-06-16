@@ -173,6 +173,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - DP: F(n): The maximum value of the subarray ending in the nth element.
 
+## 0054 - Spiral matrix
+
+- Circle by circle
+
 ## 0055 - Jump game
 
 - DP
