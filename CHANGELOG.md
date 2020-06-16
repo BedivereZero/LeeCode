@@ -3,8 +3,12 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 22       | 837   |
+| Medium     | 23       | 837   |
 | Hard       | 0        | 328   |
+
+## 0048 - Rotate image
+
+- Split 4 parts
 
 ## 0047 - Permutations II
 
