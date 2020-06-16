@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 24       | 837   |
+| Medium     | 25       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -162,6 +162,12 @@
 
 - Quick sort
 - Transform string to number, sort and base-26 to base-10
+
+## 0050 - Submissions
+
+- Division and conquer
+
+$$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right)$$
 
 ## 0053 - Maximum subarray
 
