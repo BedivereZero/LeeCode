@@ -1,17 +1,6 @@
-package main
+package algorithms
 
-import (
-	"fmt"
-	"sort"
-)
-
-func main() {
-	s := []string {"eat", "tea", "tan", "ate", "nat", "bat"}
-	// s := []string {"cab","tin","pew","duh","may","ill","buy","bar","max","doc"}
-	for _, v := range groupAnagrams(s) {
-		fmt.Println(v)
-	}
-}
+import "sort"
 
 func groupAnagrams(strs []string) [][]string {
 	nums := make([]int, len(strs))
