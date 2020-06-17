@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 26       | 837   |
+| Medium     | 28       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -188,6 +188,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0058 - Length of last word
 
 - Trailing space
+
+## 0059 - Spiral matrix II
+
+- Linary
 
 ## 0066 - Plus one
 
