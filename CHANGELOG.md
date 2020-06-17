@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 28       | 837   |
+| Medium     | 29       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -192,6 +192,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0059 - Spiral matrix II
 
 - Linary
+
+## 0060 - Submissions
+
+- Transform index `1...k` to `0...K`
+- `result[n]` is `candidates[K // factorial(len(candidates) - 1)]`
+- $K_{n+1} = K_n \mod {factorial\left[len\left(candidates\right) - 1\right]}$
 
 ## 0066 - Plus one
 
