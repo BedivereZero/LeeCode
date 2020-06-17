@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 25       | 837   |
+| Medium     | 26       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -180,6 +180,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0055 - Jump game
 
 - DP
+
+## 0056 - Merge intervals
+
+- Quicksort with customized compare function
 
 ## 0058 - Length of last word
 
