@@ -206,6 +206,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Multiply then divide to avoid overflow
 - Divided from small to large to ensure divisible
 
+## 0063 - Unique paths II
+
+- Dynamic programming
+
 ## 0066 - Plus one
 
 - Reverse array
