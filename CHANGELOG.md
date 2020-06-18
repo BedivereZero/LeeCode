@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 29       | 837   |
+| Medium     | 30       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -198,6 +198,13 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Transform index `1...k` to `0...K`
 - `result[n]` is `candidates[K // factorial(len(candidates) - 1)]`
 - $K_{n+1} = K_n \mod {factorial\left[len\left(candidates\right) - 1\right]}$
+
+## 0062 - Unique paths
+
+- Combination(n, k)
+- Calculating factorial may overflow
+- Multiply then divide to avoid overflow
+- Divided from small to large to ensure divisible
 
 ## 0066 - Plus one
 
