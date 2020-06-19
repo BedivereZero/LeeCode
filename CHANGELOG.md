@@ -250,6 +250,7 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0074 Search a 2D matrix
 
 - Binary search, twice
+- Transform 2D to 1D, binary search once
 
 ## 0083 - Remove duplicates from sorted list
 

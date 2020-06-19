@@ -4,44 +4,25 @@ func searchMatrix(matrix [][]int, target int) bool {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return false
 	}
-
-	x, found := binarySearchMatrix(matrix, target)
-	if found || x < 1 {
-		return found
+	index := binarySearchMatrix(matrix, target)
+	if index/len(matrix[0]) == len(matrix) {
+		return false
 	} else {
-		x--
+		return target == matrix[index/len(matrix[0])][index%len(matrix[0])]
 	}
-
-	_, found = binarySearch(matrix[x], target)
-	return found
 }
 
-func binarySearchMatrix(matrix [][]int, target int) (int, bool) {
-	head, tail := 0, len(matrix)
+func binarySearchMatrix(matrix [][]int, target int) int {
+	head, tail := 0, len(matrix)*len(matrix[0])
 	for head < tail {
 		mid := (head + tail) / 2
-		if matrix[mid][0] == target {
-			return mid, true
-		} else if matrix[mid][0] < target {
+		if matrix[mid/len(matrix[0])][mid%len(matrix[0])] == target {
+			return mid
+		} else if matrix[mid/len(matrix[0])][mid%len(matrix[0])] < target {
 			head = mid + 1
 		} else {
 			tail = mid
 		}
 	}
-	return head, head < len(matrix) && matrix[head][0] == target
-}
-
-func binarySearch(array []int, target int) (int, bool) {
-	head, tail := 0, len(array)
-	for head < tail {
-		mid := (head + tail) / 2
-		if array[mid] == target {
-			return mid, true
-		} else if array[mid] < target {
-			head = mid + 1
-		} else {
-			tail = mid
-		}
-	}
-	return head, head < len(array) && array[head] == target
+	return head
 }
