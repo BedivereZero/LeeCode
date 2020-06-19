@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 34       | 837   |
+| Medium     | 35       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -242,6 +242,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0071 - Simplyfy path
 
 - TODO: base on string
+
+## 0073 Set matrix zeros
+
+- Store x, y to be zeros
 
 ## 0083 - Remove duplicates from sorted list
 
