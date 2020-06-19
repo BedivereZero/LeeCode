@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 36       | 837   |
+| Medium     | 37       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -251,6 +251,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Binary search, twice
 - Transform 2D to 1D, binary search once
+
+## 0075 Sort colors
+
+- `nums[:a]` are red, `nums[a:b]` are white, `nums[c:]` are blue
+- `nums[b:c]` are unknown
 
 ## 0083 - Remove duplicates from sorted list
 
