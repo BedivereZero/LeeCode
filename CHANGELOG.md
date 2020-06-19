@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 38       | 837   |
+| Medium     | 39       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -243,23 +243,27 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - TODO: base on string
 
-## 0073 Set matrix zeros
+## 0073 - Set matrix zeros
 
 - Store x, y to be zeros
 
-## 0074 Search a 2D matrix
+## 0074 - Search a 2D matrix
 
 - Binary search, twice
 - Transform 2D to 1D, binary search once
 
-## 0075 Sort colors
+## 0075 - Sort colors
 
 - `nums[:a]` are red, `nums[a:b]` are white, `nums[c:]` are blue
 - `nums[b:c]` are unknown
 
-## 0077 Combinations
+## 0077 - Combinations
 
 - DFS
+
+## 0078 - Subsets
+
+- Use `make` and `copy` instead of `append`
 
 ## 0083 - Remove duplicates from sorted list
 
