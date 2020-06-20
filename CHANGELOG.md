@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 39       | 837   |
+| Medium     | 40       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -264,6 +264,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0078 - Subsets
 
 - Use `make` and `copy` instead of `append`
+
+## 0079 - Word search
+
+- DFS
+- Record footprint
 
 ## 0083 - Remove duplicates from sorted list
 
