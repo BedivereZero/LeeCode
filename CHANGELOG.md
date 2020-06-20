@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 40       | 837   |
+| Medium     | 41       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -269,6 +269,8 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - DFS
 - Record footprint
+
+## 0080 - Remove duplicates from sorted array II
 
 ## 0083 - Remove duplicates from sorted list
 
