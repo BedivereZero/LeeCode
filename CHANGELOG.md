@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 42       | 837   |
+| Medium     | 43       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -275,6 +275,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0081 - Search in rotated sorted array II
 
 - Search pivot
+
+## 0082 - Remove duplicates from sorted list II
+
+- Skip duplicates
+- Move to next node if not skip
 
 ## 0083 - Remove duplicates from sorted list
 
