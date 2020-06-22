@@ -1,3 +1,5 @@
+package algorithms
+
 func isPalindrome(x int) bool {
 	if x < 0 || (x != 0 && x%10 == 0) {
 		return false

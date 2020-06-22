@@ -1,3 +1,5 @@
+package algorithms
+
 func romanToInt(s string) int {
 	cha := map[byte]int{
 		'I': 1,

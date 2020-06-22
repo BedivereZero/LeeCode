@@ -1,3 +1,5 @@
+package algorithms
+
 func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 	var result [][]int

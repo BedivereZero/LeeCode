@@ -1,16 +1,4 @@
-// package algorithms
-
-package main
-
-import (
-	"fmt"
-	"bytes"
-)
-
-func main() {
-	n, k := 4, 9
-	fmt.Println(getPermutation(n, k))
-}
+package algorithms
 
 func getPermutation(n int, k int) string {
 	permutationAsList := make([]int, n)

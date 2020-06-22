@@ -1,3 +1,5 @@
+package algorithms
+
 func intToRoman(num int) string {
 	var r string
 	var c int

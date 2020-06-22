@@ -1,3 +1,5 @@
+package algorithms
+
 func removeDuplicates(nums []int) int {
 	length := len(nums)
 	if length < 2 {

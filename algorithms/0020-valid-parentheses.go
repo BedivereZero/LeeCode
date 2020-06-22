@@ -1,3 +1,5 @@
+package algorithms
+
 func isValid(s string) bool {
 	if s == "" {
 		return true

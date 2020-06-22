@@ -1,3 +1,5 @@
+package algorithms
+
 func reverse(x int) int {
 	y := 0
 	for x != 0 {

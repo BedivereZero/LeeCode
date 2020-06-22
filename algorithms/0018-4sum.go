@@ -1,3 +1,5 @@
+package algorithms
+
 func fourSum(nums []int, target int) [][]int {
 	sort.Ints(nums)
 	var result [][]int

@@ -1,3 +1,5 @@
+package algorithms
+
 func searchInsert(nums []int, target int) int {
 	left, right := 0, len(nums)
 	for left < right {

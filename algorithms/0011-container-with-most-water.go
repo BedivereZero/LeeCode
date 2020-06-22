@@ -1,3 +1,5 @@
+package algorithms
+
 func maxArea(height []int) int {
 	a, l, r := 0, 0, len(height) - 1
 	for l < r {

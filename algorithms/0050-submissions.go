@@ -1,3 +1,5 @@
+package algorithms
+
 func myPow(x float64, n int) float64 {
     if n < 0 {
         x, n = 1 / x, -n

@@ -1,3 +1,5 @@
+package algorithms
+
 func reverse(input []int) []int {
 	if len(input) == 0 {
 		return input

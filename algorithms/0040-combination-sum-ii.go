@@ -1,18 +1,4 @@
-// package algorithms
-package main
-
-import (
-	"fmt"
-	"sort"
-)
-
-func main() {
-	s := []int {10, 1, 2, 7, 6, 1, 5}
-	t := 8
-	for _, v := range combinationSum2(s, t) {
-		 fmt.Println(v)
-	}
-}
+package algorithms
 
 func combinationSum2(candidates []int, target int) [][]int {
 	var results [][]int

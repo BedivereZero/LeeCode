@@ -1,3 +1,5 @@
+package algorithms
+
 func minPathSum(grid [][]int) int {
 	for x := range grid {
 		for y := range grid[x] {

@@ -1,12 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-	for _, c := range grayCode(3) {
-		fmt.Printf("%08b\n", c)
-	}
-}
+package algorithms
 
 func grayCode(n int) []int {
 	code := make([]int, 1<<n)

@@ -1,3 +1,5 @@
+package algorithms
+
 func letterCombinations(digits string) []string {
 	var out []string
 	for _, i := range digits {

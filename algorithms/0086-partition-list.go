@@ -1,7 +1,4 @@
-type ListNode struct {
-    Val int
-    Next *ListNode
-}
+package algorithms
 
 func partition(head *ListNode, x int) *ListNode {
 	rl := &ListNode{}
