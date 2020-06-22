@@ -305,6 +305,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Dynamic programming
 
+## 0092 - Reverse Linked List II
+
+- Define `root` point to `head`
+- `func reverse(head *ListNode, tail *ListNode) *ListNode` revert `list[head:tail]`
+
 ## 0415 - Add strings
 
 - Full adder
