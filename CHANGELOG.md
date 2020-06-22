@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 46       | 837   |
+| Medium     | 47       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -300,6 +300,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - $O(N)$
 
 ## 0090 - Subsets II
+
+## 0091 - Decode ways
+
+- Dynamic programming
 
 ## 0415 - Add strings
 
