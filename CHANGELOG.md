@@ -328,6 +328,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - $Cache(x, y)$ means BST with length y starting at x
 - $Cache(x, 0)$ is ${ nil }$
 
+## 0096 - Unique Binary Search Trees
+
+- Dynamic programming
+- $F_{n+1}=\sum_{i=0}^{n} F_i \times F_{n-i}$
+
 ## 0098 - Validate Binary Search Tree
 
 - Recursion
