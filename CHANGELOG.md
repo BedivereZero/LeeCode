@@ -320,6 +320,7 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Deep First Search
 - Recursion
+- Stack and loops
 
 ## 0095 - Uniqute Binary Search Tree II
 
