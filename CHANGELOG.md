@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 47       | 837   |
+| Medium     | 49       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -309,6 +309,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Define `root` point to `head`
 - `func reverse(head *ListNode, tail *ListNode) *ListNode` revert `list[head:tail]`
+
+## 0093 - Restore IP Addresses
+
+- Deep First Search
+- Not remove number `0`: `010010` -> `[0.10.0.10, 0.100.1.0]`
+- [Golang]: `strconv.ParseUint`, `strconv.FormatUint`
 
 ## 0415 - Add strings
 
