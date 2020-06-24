@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 50       | 837   |
+| Medium     | 51       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -320,6 +320,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Deep First Search
 - Recursion
+
+## 0095 - Uniqute Binary Search Tree II
+
+- Dynamic programming
+- $Cache(x, y)$ means BST with length y starting at x
+- $Cache(x, 0)$ is ${ nil }$
 
 ## 0415 - Add strings
 
