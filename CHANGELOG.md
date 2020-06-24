@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 51       | 837   |
+| Medium     | 54       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -111,6 +111,10 @@
 
 - [Python3] $O(m * (m - n))$
 - [Golang] TODO: KMP
+
+## 0029 - Divide Two Integers
+
+- Bit operation
 
 ## 0031 - Next permutation
 
