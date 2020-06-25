@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 54       | 837   |
+| Medium     | 55       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -134,6 +134,10 @@
 ## 0035 - Search Insert Position
 
 - **Binary Search**
+
+## 0037 - Valid Sudoku
+
+- Check rows, columns, blocks separately
 
 ## 0038 - Count and say
 
