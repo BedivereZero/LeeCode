@@ -4,7 +4,11 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 0        | 328   |
+| Hard       | 1        | 328   |
+
+## 0004 - Median Of Two Sorted Arrays
+
+- Division and conquer
 
 ## 0005 - Longest palindromic substring
 
