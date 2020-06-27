@@ -3,7 +3,7 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
-| Medium     | 55       | 837   |
+| Medium     | 56       | 837   |
 | Hard       | 0        | 328   |
 
 ## 0005 - Longest palindromic substring
@@ -152,7 +152,11 @@
 
 - DFS
 
-## 0043 - Permutations
+## 0043 - Multiply Strings
+
+- Multiply bit by bit and add
+
+## 0046 - Permutations
 
 - DFS
 - [Golang]: Not use `append()` in params, why?
