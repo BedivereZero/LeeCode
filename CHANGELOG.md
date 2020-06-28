@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 1        | 328   |
+| Hard       | 2        | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -97,7 +97,11 @@
 
 - DFS
 
-## 0024 -  Swap nodes in pairs
+## 0023 - Merge k Sorted Lists
+
+- Division and conquer
+
+## 0024 - Swap nodes in pairs
 
 - Return `head.next` if head is not null
 - First's next is third if fourth does not exist
