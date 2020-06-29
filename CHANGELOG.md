@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 2        | 328   |
+| Hard       | 3        | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -35,6 +35,19 @@
 - [Golang] Use modulus to get reversal.
 - [Golang] Numbers endswith zero are not palidrome.
 - [Golang] Reverse half.
+
+## 0010 - Regular Expression Matching
+
+- Division and conquer
+- $f(x,y)$ is result of matching `p[:x]` and `s[:y]`
+  - $f(0,0)$ is `True`
+  - $f(x,y)$ can be calculated from $f(x-1, y-1)$
+    - When $p_{x-1}$ in alphabet, $f(x,y) = f(x-1,y-1) \land p_{x-1} = s_{y-1}$
+    - When $p_{x-1}$ is `.`, $f(x,y) = f(x-1,y-1)$
+    - When $p_{x-1}$ is `*`
+      - When $p_{x-2}$ is `.`, $f(x,y) =\prod_{i=0}^y f(x-2, y-i)$
+      - When $p_{x-2}$ is alphabet, $f(x,y) = \prod_{i=0}^y f(x-2, y-i) \land g(s, y, i, p_{x-2})$
+        - $g(s, y, i, p_{x-2})$ String `s`, from `y-i` to `y`, whether it contains only the letter $p_{x-2}$
 
 ## 0011 - Container with most water
 
