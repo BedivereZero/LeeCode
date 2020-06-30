@@ -119,6 +119,16 @@
 - Return `head.next` if head is not null
 - First's next is third if fourth does not exist
 
+## 0025 - Reverse Nodes in k-Group
+
+- Related to [0092 - Reverse Linked List II](#0092---reverse-linked-list-ii)
+- Revert link list several times
+- Function `reverse(head, tail *ListNode) *ListNode`
+  - Link list: `r -> 0 -> 1 -> 2 -> 3 -> 4 -> n`
+  - `revert(0, 2)` reverse from 0, before 2, return `r -> 1 -> 0 -> 2 -> ...`
+  - `revert(2, 4)` reverse from 2, before 3, return `r -> 3 -> 2 -> 4 -> ...`
+  - `revert(head, nil)` reverse all of the link list, return `r -> 4 -> 3 -> 2 -> 1 -> 0 -> n`
+
 ## 0026 - Remove duplicates from sorted array
 
 - [Pytnon3] Two points.
