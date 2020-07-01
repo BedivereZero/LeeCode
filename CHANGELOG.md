@@ -147,6 +147,10 @@
 
 - Bit operation
 
+## 0030 - Substring with Concatenation of All Words
+
+- Binary
+
 ## 0031 - Next permutation
 
 1. Found first element not increase from tail
