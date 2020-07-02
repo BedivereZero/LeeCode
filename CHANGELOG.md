@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 3        | 328   |
+| Hard       | 6        | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -156,6 +156,15 @@
 1. Found first element not increase from tail
 2. Swap element if found
 3. Sort elements after it
+
+## 0032 - Longest Valid Parentheses
+
+- Dymatic programming
+  - s[x] is `(` $f(x) = 0$
+  - s[x] is `)`
+    - $s_{x-1} = ($
+      - $x \in [0, 2): f(x) = 2$
+      - $x \in [2, \infty]: f(x) = f(x - 2) + 2$
 
 ## 0033 - Search in rotated sorted array
 
