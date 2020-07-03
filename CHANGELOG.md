@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 6        | 328   |
+| Hard       | 7        | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -179,9 +179,13 @@
 
 - **Binary Search**
 
-## 0037 - Valid Sudoku
+## 0036 - Valid Sudoku
 
 - Check rows, columns, blocks separately
+
+## 0037 - Sudoku Solver
+
+- NOTICE: Get candidate from block $board[x/3*3+i/3,y/3*3+y\mod3]$
 
 ## 0038 - Count and say
 
