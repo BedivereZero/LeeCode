@@ -1,3 +1,5 @@
+package algorithms
+
 func isValidSudoku(board [][]byte) bool {
 	// valid row
 	for x := 0; x < 9; x++ {
