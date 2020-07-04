@@ -4,23 +4,20 @@ func solveSudoku(board [][]byte) {
 	solve(board, 0)
 }
 
-func solve(board [][]byte, i int) bool {
-	var x, y int
-	i = next(board, i)
-	if i < 81 {
-		x, y = i/9, i%9
-	} else {
+func solve(board [][]byte, n int) bool {
+	n = next(board, n)
+	if n == 81 {
 		return true
 	}
-	for i, f := range getCandiate(board, x, y) {
+	for i, f := range getCandiate(board, n) {
 		if f {
 			continue
 		}
-		board[x][y] = byte('1' + i)
-		if ok := solve(board, i+1); ok {
+		board[n/9][n%9] = byte('1' + i)
+		if ok := solve(board, n+1); ok {
 			return true
 		} else {
-			board[x][y] = '.'
+			board[n/9][n%9] = '.'
 		}
 	}
 	return false
@@ -36,24 +33,24 @@ func next(board [][]byte, i int) int {
 	return i
 }
 
-func getCandiate(board [][]byte, x int, y int) []bool {
+func getCandiate(board [][]byte, n int) []bool {
 	flag := make([]bool, 9)
 	// check row
 	for i := 0; i < 9; i++ {
-		if board[x][i] != '.' {
-			flag[int(board[x][i]-'1')] = true
+		if board[n/9][i] != '.' {
+			flag[int(board[n/9][i]-'1')] = true
 		}
 	}
 	// check column
 	for i := 0; i < 9; i++ {
-		if board[i][y] != '.' {
-			flag[int(board[i][y]-'1')] = true
+		if board[i][n%9] != '.' {
+			flag[int(board[i][n%9]-'1')] = true
 		}
 	}
 	// check block
 	for i := 0; i < 9; i++ {
-		if board[x/3*3+i/3][y/3*3+i%3] != '.' {
-			flag[int(board[x/3*3+i/3][y/3*3+i%3]-'1')] = true
+		if board[n/27*3+i/3][n%9/3*3+i%3] != '.' {
+			flag[int(board[n/27*3+i/3][n%9/3*3+i%3]-'1')] = true
 		}
 	}
 	return flag
