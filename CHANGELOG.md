@@ -200,6 +200,15 @@
 
 - DFS
 
+## 0041- First Missing Positive
+
+- Sequences of length N can have up to N positive integers
+- When all positive integers from 1 to N appear, the solution is the maximum value, N+1
+- The range of solutions is 1 to N + 1
+- Modify the sequence $nums$ so that $nums_i$ represents whether the number $i+1$ has appeared
+- Check the sequence nums to find the first number that does not appear
+- If all appear, the solution is $N + 1$
+
 ## 0043 - Multiply Strings
 
 - Multiply bit by bit and add
