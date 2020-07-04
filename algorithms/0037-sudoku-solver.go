@@ -12,9 +12,11 @@ func solve(board [][]byte, i int) bool {
 	} else {
 		return true
 	}
-	candidate := getCandiate(board, x, y)
-	for _, c := range candidate {
-		board[x][y] = c
+	for i, f := range getCandiate(board, x, y) {
+		if f {
+			continue
+		}
+		board[x][y] = byte('1' + i)
 		if ok := solve(board, i+1); ok {
 			return true
 		} else {
@@ -34,7 +36,7 @@ func next(board [][]byte, i int) int {
 	return i
 }
 
-func getCandiate(board [][]byte, x int, y int) []byte {
+func getCandiate(board [][]byte, x int, y int) []bool {
 	flag := make([]bool, 9)
 	// check row
 	for i := 0; i < 9; i++ {
@@ -54,11 +56,5 @@ func getCandiate(board [][]byte, x int, y int) []byte {
 			flag[int(board[x/3*3+i/3][y/3*3+i%3]-'1')] = true
 		}
 	}
-	var c []byte
-	for i, f := range flag {
-		if !f {
-			c = append(c, byte('1'+i))
-		}
-	}
-	return c
+	return flag
 }
