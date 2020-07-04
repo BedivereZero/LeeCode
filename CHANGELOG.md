@@ -186,6 +186,7 @@
 ## 0037 - Sudoku Solver
 
 - NOTICE: Get candidate from block $board[x/3*3+i/3,y/3*3+y\mod3]$
+- TODO: `next()` returns the grid with the least possible
 
 ## 0038 - Count and say
 
