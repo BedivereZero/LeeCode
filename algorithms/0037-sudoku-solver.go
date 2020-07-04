@@ -1,24 +1,27 @@
 package algorithms
 
 func solveSudoku(board [][]byte) {
-	solve(board, 0)
+	row, col, blk := exist(board)
+	solve(board, row, col, blk, 0)
 }
 
-func solve(board [][]byte, n int) bool {
+func solve(board [][]byte, row [][]bool, col [][]bool, blk [][]bool, n int) bool {
 	n = next(board, n)
 	if n == 81 {
 		return true
 	}
-	for i, f := range getCandiate(board, n) {
-		if f {
+	for i := 0; i < 9; i++ {
+		if row[n/9][i] || col[n%9][i] || blk[n/27*3+n%9/3][i] {
 			continue
 		}
 		board[n/9][n%9] = byte('1' + i)
-		if ok := solve(board, n+1); ok {
+		row[n/9][i], col[n%9][i], blk[n/27*3+n%9/3][i] = true, true, true
+		if ok := solve(board, row, col, blk, n+1); ok {
 			return true
 		} else {
-			board[n/9][n%9] = '.'
+			row[n/9][i], col[n%9][i], blk[n/27*3+n%9/3][i] = false, false, false
 		}
+		board[n/9][n%9] = '.'
 	}
 	return false
 }
@@ -33,25 +36,32 @@ func next(board [][]byte, i int) int {
 	return i
 }
 
-func getCandiate(board [][]byte, n int) []bool {
-	flag := make([]bool, 9)
-	// check row
-	for i := 0; i < 9; i++ {
-		if board[n/9][i] != '.' {
-			flag[int(board[n/9][i]-'1')] = true
+func exist(board [][]byte) ([][]bool, [][]bool, [][]bool) {
+	row := genMatrix(9, 9)
+	col := genMatrix(9, 9)
+	blk := genMatrix(9, 9)
+
+	for x := 0; x < 9; x++ {
+		for y := 0; y < 9; y++ {
+			// skip '.'
+			if board[x][y] == '.' {
+				continue
+			}
+			// mark as row
+			row[x][int(board[x][y]-'1')] = true
+			// mark as column
+			col[y][int(board[x][y]-'1')] = true
+			// makr as block
+			blk[x/3*3+y/3][int(board[x][y]-'1')] = true
 		}
 	}
-	// check column
-	for i := 0; i < 9; i++ {
-		if board[i][n%9] != '.' {
-			flag[int(board[i][n%9]-'1')] = true
-		}
+	return row, col, blk
+}
+
+func genMatrix(x, y int) [][]bool {
+	m := make([][]bool, x)
+	for i := 0; i < x; i++ {
+		m[i] = make([]bool, y)
 	}
-	// check block
-	for i := 0; i < 9; i++ {
-		if board[n/27*3+i/3][n%9/3*3+i%3] != '.' {
-			flag[int(board[n/27*3+i/3][n%9/3*3+i%3]-'1')] = true
-		}
-	}
-	return flag
+	return m
 }
