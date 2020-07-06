@@ -212,7 +212,6 @@
 ## 0042 - Trapping Rain Water
 
 - Save height of pool
-- TODO: No extra array
 
 ## 0043 - Multiply Strings
 
