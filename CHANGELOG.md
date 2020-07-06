@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 12       | 328   |
+| Hard       | 13       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -253,6 +253,10 @@
 $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right)$$
 
 ## 0051 - N-Queens
+
+- Deep First Search
+
+## 0052 - N-Queens II
 
 - Deep First Search
 
