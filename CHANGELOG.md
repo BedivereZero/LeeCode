@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 7        | 328   |
+| Hard       | 9        | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -200,7 +200,7 @@
 
 - DFS
 
-## 0041- First Missing Positive
+## 0041 - First Missing Positive
 
 - Sequences of length N can have up to N positive integers
 - When all positive integers from 1 to N appear, the solution is the maximum value, N+1
@@ -208,6 +208,11 @@
 - Modify the sequence $nums$ so that $nums_i$ represents whether the number $i+1$ has appeared
 - Check the sequence nums to find the first number that does not appear
 - If all appear, the solution is $N + 1$
+
+## 0042 - Trapping Rain Water
+
+- Save height of pool
+- TODO: No extra array
 
 ## 0043 - Multiply Strings
 
