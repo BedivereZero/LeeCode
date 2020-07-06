@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 9        | 328   |
+| Hard       | 10       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -212,6 +212,11 @@
 ## 0042 - Trapping Rain Water
 
 - Save height of pool
+
+## 0044 - Wildcard Matching
+
+- Dynatic Programming
+- TODO: 2D matrix -> 1D matrix
 
 ## 0043 - Multiply Strings
 
