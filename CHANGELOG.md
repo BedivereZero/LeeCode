@@ -225,7 +225,7 @@
 
 ## 0045 - Jump Game II
 
-- Dynatic Programming
+- Greedy algorithm
 
 ## 0046 - Permutations
 

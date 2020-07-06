@@ -1,15 +1,19 @@
 package algorithms
 
 func jump(nums []int) int {
-	step, end := 0, len(nums)-1
-	for end > 0 {
-		for i := 0; i < end; i++ {
-			if i+nums[i] >= end {
-				end = i
-				break
+	if len(nums) < 2 {
+		return 0
+	}
+	s, i := 0, 0
+	for i+nums[i] < len(nums)-1 {
+		n, f := i+1, i+1
+		for j := i + 1; j <= i+nums[i]; j++ {
+			if f < j+nums[j] {
+				n, f = j, j+nums[j]
 			}
 		}
-		step++
+		i = n
+		s++
 	}
-	return step
+	return s + 1
 }
