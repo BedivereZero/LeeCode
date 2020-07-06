@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 10       | 328   |
+| Hard       | 11       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -222,6 +222,10 @@
 ## 0043 - Multiply Strings
 
 - Multiply bit by bit and add
+
+## 0045 - Jump Game II
+
+- Dynatic Programming
 
 ## 0046 - Permutations
 
