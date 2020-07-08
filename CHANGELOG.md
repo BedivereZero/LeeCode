@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 14       | 328   |
+| Hard       | 15       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -317,6 +317,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0064 - Minimum Path Sum
 
 - Dynamic programming
+
+## 0065 - Valid Number
+
+- **SHIT**
+- COPY FROM: [Golang的非自动机解法](https://leetcode-cn.com/problems/valid-number/solution/golangde-fei-zi-dong-ji-jie-fa-by-xijiz/)
 
 ## 0066 - Plus one
 
