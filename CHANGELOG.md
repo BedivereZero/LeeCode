@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 16       | 328   |
+| Hard       | 17       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -350,6 +350,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0071 - Simplyfy path
 
 - TODO: base on string
+
+## 0072 - Edit Distance
+
+- Dynatic programming
 
 ## 0073 - Set matrix zeros
 
