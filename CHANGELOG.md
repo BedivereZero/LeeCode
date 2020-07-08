@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 13       | 328   |
+| Hard       | 14       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -275,6 +275,14 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0056 - Merge intervals
 
 - Quicksort with customized compare function
+
+## 0057 - Insert Interval
+
+- Binary Search
+  - Find first `L` greater than or equal to `newInternal[0]` from `intervals[n][1]`
+  - Find first `R` greater than `newInternal[1]` from `intervals[n][0]`
+  - Insert from `L` before `R`
+  - If `L` less than `R`, newInternal will merge element
 
 ## 0058 - Length of last word
 
