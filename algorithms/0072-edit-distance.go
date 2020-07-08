@@ -1,27 +1,33 @@
 package algorithms
 
 func minDistance(word1 string, word2 string) int {
-	f := make([][]int, len(word1)+1)
-	for x := range f {
-		f[x] = make([]int, len(word2)+1)
+	if len(word1) < len(word2) {
+		word1, word2 = word2, word1
 	}
-	for x := range f {
-		for y := range f[x] {
-			if x == 0 || y == 0 {
-				f[x][y] = x + y
+	f := make([]int, len(word2)+1)
+
+	for x := 0; x < len(word1)+1; x++ {
+		var pre int
+		for y := range f {
+			if x == 0 {
+				f[y] = y
 				continue
 			}
-			f[x][y] = f[x-1][y-1]
+			if y == 0 {
+				pre, f[0] = f[0], x
+				continue
+			}
 			if word1[x-1] != word2[y-1] {
-				f[x][y]++
+				pre++
 			}
-			if f[x][y] > f[x-1][y]+1 {
-				f[x][y] = f[x-1][y] + 1
+			if pre > f[y]+1 {
+				pre = f[y] + 1
 			}
-			if f[x][y] > f[x][y-1]+1 {
-				f[x][y] = f[x][y-1] + 1
+			if pre > f[y-1]+1 {
+				pre = f[y-1] + 1
 			}
+			pre, f[y] = f[y], pre
 		}
 	}
-	return f[len(word1)][len(word2)]
+	return f[len(word2)]
 }
