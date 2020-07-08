@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 15       | 328   |
+| Hard       | 16       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -332,6 +332,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - No reverse
 - Full adder
+
+## 0068 - Text Justification
+
+- [Golang] `bytes.Buffer.Len` and `bytes.Bufer.WriteString`
 
 ## 0069 - Sqrtx
 
