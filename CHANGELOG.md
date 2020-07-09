@@ -373,6 +373,7 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Two points
 - Slice window
+- Use `queue` record target character
 
 ## 0077 - Combinations
 
