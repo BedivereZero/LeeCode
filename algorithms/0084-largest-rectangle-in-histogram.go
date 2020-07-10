@@ -1,37 +1,22 @@
 package algorithms
 
-type (
-	stack struct {
-		top   *node
-		depth int
-	}
-	node struct {
-		value interface{}
-		next  *node
-	}
-)
+type stack struct {
+	elements []int
+	depth    int
+}
 
-func (s *stack) push(element interface{}) {
-	n := &node{value: element, next: s.top}
-	s.top = n
+func (s *stack) push(n int) {
+	s.elements[s.depth] = n
 	s.depth++
 }
 
-func (s *stack) pop() interface{} {
-	if s.depth == 0 {
-		return nil
-	}
-	n := s.top
-	s.top = s.top.next
+func (s *stack) pop() int {
 	s.depth--
-	return n.value
+	return s.elements[s.depth]
 }
 
-func (s *stack) peek() interface{} {
-	if s.depth == 0 {
-		return nil
-	}
-	return s.top.value
+func (s *stack) peek() int {
+	return s.elements[s.depth-1]
 }
 
 func largestRectangleArea(heights []int) int {
@@ -68,6 +53,7 @@ func largestRectangleArea(heights []int) int {
 		if s := heights[index[depth]] * (len(heights) - index[depth] - 1); largest < s+cache[depth] {
 			largest = s + cache[depth]
 		}
+		s.push(i)
 	}
 	return largest
 }
