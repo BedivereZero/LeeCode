@@ -405,6 +405,7 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 ## 0084 - Largest Rectangle in Histogram
 
+- Recursion
 - Scan one time
 
 ## 0086 - Parition list
