@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 18       | 328   |
+| Hard       | 19       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -402,6 +402,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0083 - Remove duplicates from sorted list
 
 - Skip multi nodes
+
+## 0084 - Largest Rectangle in Histogram
+
+- Scan one time
 
 ## 0086 - Parition list
 
