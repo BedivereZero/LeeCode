@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 20       | 328   |
+| Hard       | 21       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -417,6 +417,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Two lists contains low and high
 - Combine two lists
+
+## 0086 - Scramble String
+
+- Recursion
+- Pruning
 
 ## 0088 - Merge sorted array
 
