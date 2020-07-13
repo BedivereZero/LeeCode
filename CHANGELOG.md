@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 19       | 328   |
+| Hard       | 20       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -407,6 +407,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 - Scan one time
+
+## 0085 - Maximal Rectangle
+
+- Transform to histogram
+- Monotonic stack
 
 ## 0086 - Parition list
 

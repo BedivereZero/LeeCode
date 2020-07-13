@@ -53,7 +53,6 @@ func largestRectangleArea(heights []int) int {
 		if s := heights[index[depth]] * (len(heights) - index[depth] - 1); largest < s+cache[depth] {
 			largest = s + cache[depth]
 		}
-		s.push(i)
 	}
 	return largest
 }
