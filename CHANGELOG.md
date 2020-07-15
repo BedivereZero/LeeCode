@@ -517,6 +517,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0110 - Balanced Binary Tree
+
+- Recursion
+
 ## 0415 - Add strings
 
 - Full adder
