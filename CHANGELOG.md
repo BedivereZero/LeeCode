@@ -4,7 +4,7 @@
 | :--------- | :------- | :---- |
 | Easy       | 21       | 492   |
 | Medium     | 56       | 837   |
-| Hard       | 22       | 328   |
+| Hard       | 23       | 328   |
 
 ## 0004 - Median Of Two Sorted Arrays
 
@@ -477,6 +477,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0099 - Recover Binary Search Tree
 
 - Scan twice: from head, from tail
+
+## 0100 - Same Tree
+
+- Recursion
 
 ## 0415 - Add strings
 
