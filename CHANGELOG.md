@@ -493,6 +493,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0105 - Construct Binary Tree from Preorder and Inorder Traversal
+
+- Recursion
+- Find the root in array `inorder`, `inorder[:root]` is left tree, `inorder[root+1:]` is right tree
+
 ## 0415 - Add strings
 
 - Full adder
