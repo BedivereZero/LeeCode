@@ -1,11 +1,5 @@
 # Changelog
 
-| Difficulty | Resolved | Total |
-| :--------- | :------- | :---- |
-| Easy       | 21       | 492   |
-| Medium     | 56       | 837   |
-| Hard       | 23       | 328   |
-
 ## 0004 - Median Of Two Sorted Arrays
 
 - Division and conquer
@@ -479,6 +473,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Scan twice: from head, from tail
 
 ## 0100 - Same Tree
+
+- Recursion
+
+## 0101 - Symmetric Tree
 
 - Recursion
 
