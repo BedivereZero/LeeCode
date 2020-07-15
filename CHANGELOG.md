@@ -526,6 +526,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Recursion
 - NOTICE: Tree with null is not 1
 
+## 0112 - Path Sum
+
+- Recursion
+
 ## 0113 - Path Sum II
 
 - Deep First Search
