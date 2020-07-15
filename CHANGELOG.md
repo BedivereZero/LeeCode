@@ -521,6 +521,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0111 - Minimum Depth of Binary Tree
+
+- Recursion
+- NOTICE: Tree with null is not 1
+
 ## 0118 - Pascal's Triangle
 
 - Nothing
@@ -541,6 +546,7 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0122 - Best Time to Buy and Sell Stock II
 
 - Linearity
+
 
 ## 0415 - Add strings
 
