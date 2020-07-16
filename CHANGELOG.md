@@ -534,6 +534,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Deep First Search
 
+## 0114 -  Flatten Binary Tree to Linked List
+
+- Recursion
+
 ## 0118 - Pascal's Triangle
 
 - Nothing
