@@ -571,6 +571,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
   - `Node.Val + Node.Right.Val`
   - `Node.Val + Node.Left.Val + Node.Right.Val`
 
+## 0125 - Valid Palindrome
+
+- Two Points
+
 ## 0415 - Add strings
 
 - Full adder
