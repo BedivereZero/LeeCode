@@ -529,6 +529,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Nothing
 
+## 0120 - Triangle
+
+- Dynamic Programming
+
 ## 0415 - Add strings
 
 - Full adder
