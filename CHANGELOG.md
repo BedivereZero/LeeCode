@@ -525,6 +525,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Nothing
 
+## 0119 - Pascal's Triangle II
+
+- Nothing
+
 ## 0415 - Add strings
 
 - Full adder
