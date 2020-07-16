@@ -559,6 +559,18 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Linearity
 
+## 0124 - Binary Tree Maximum Path Sum
+
+- Recursion
+- Update `Node.Val` to the maximum path starting from `Node`
+- `maxPathSum(Node)` is the maximum of:
+  - `maxPathSum(Node.Left)`
+  - `maxPathSum(Node.Right)`
+  - `Node.Val`
+  - `Node.Val + Node.Left.Val`
+  - `Node.Val + Node.Right.Val`
+  - `Node.Val + Node.Left.Val + Node.Right.Val`
+
 ## 0415 - Add strings
 
 - Full adder
