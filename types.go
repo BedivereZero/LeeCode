@@ -1,5 +1,13 @@
 package main
 
+// Node is a node
+type Node struct {
+	Val   int
+	Left  *Node
+	Right *Node
+	Next  *Node
+}
+
 // ListNode is a list node
 type ListNode struct {
 	Val  int
