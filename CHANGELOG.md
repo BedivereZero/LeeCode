@@ -538,6 +538,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Dynamtic Programing
 - $f_i$ means the minimum in the frist i days
 
+## 0122 - Best Time to Buy and Sell Stock II
+
+- Linearity
+
 ## 0415 - Add strings
 
 - Full adder
