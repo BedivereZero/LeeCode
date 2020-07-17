@@ -602,6 +602,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Twice = nothing
 - It is not necessary to record what numbers not single
 
+## 0137 - Single Number II
+
+- Use 2 bit record the number of occurrences of 1: `00`, `01`, `10`
+- Use **Karnaugh map** to facilitate the simplification of Boolean algebra
+
 ## 0415 - Add strings
 
 - Full adder
