@@ -1,23 +1,31 @@
 package algorithms
 
 func candy(ratings []int) int {
-	cache := make([]int, len(ratings))
-	cache[0] = 0
-	for i := 1; i < len(ratings); i++ {
-		if ratings[i] > ratings[i-1] {
-			cache[i] = cache[i-1] + 1
-		}
-	}
-	p := 0
-	for i := len(ratings) - 2; i >= 0; i-- {
-		if ratings[i] > ratings[i+1] && cache[i] < p+1 {
-			cache[i] = p + 1
-		}
-		p = cache[i]
-	}
 	sum := 0
-	for _, c := range cache {
-		sum += c
+	for i := 1; i < len(ratings); {
+		// skip equal
+		for ; i < len(ratings) && ratings[i] == ratings[i-1]; i++ {
+		}
+
+		// count up
+		u := 0
+		for ; i+u < len(ratings) && ratings[i+u] > ratings[i+u-1]; u++ {
+		}
+		i += u
+
+		// count down
+		d := 0
+		for ; i+d < len(ratings) && ratings[i+d] < ratings[i+d-1]; d++ {
+		}
+		i += d
+
+		// compare and switch u and d, make sure u <= d
+		if d < u {
+			u, d = d, u
+		}
+
+		// calculate candy
+		sum += (1+u-1)*(u-1)/2 + (1+d)*d/2
 	}
 	return sum + len(ratings)
 }

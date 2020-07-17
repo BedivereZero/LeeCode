@@ -592,8 +592,9 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 ## 0135 - Candy
 
-- Traversal twice, from left and right
-- The peek is the max of left and right
+- Traversal once
+- Two points, traversal equal, increase and decrease then loop
+- The peek is the max of increase and decrease parts
 
 ## 0415 - Add strings
 
