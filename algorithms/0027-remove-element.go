@@ -10,3 +10,4 @@ func removeElement(nums []int, val int) int {
 		}
 	}
 	return count
+}

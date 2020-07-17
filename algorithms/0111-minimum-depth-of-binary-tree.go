@@ -1,5 +1,14 @@
 package algorithms
 
+func min(n ...int) int {
+	for i := 1; i < len(n); i++ {
+		if n[i] < n[0] {
+			n[0] = n[i]
+		}
+	}
+	return n[0]
+}
+
 func minDepth(root *TreeNode) int {
 	if root == nil {
 		return 0

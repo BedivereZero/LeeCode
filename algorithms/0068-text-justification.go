@@ -1,17 +1,6 @@
-package main
+package algorithms
 
-import (
-	"bytes"
-	"fmt"
-)
-
-func main() {
-	words := []string{"What", "must", "be", "acknowledgment", "shall", "be"}
-	maxWidth := 16
-	for _, line := range fullJustify(words, maxWidth) {
-		fmt.Println(line, "#")
-	}
-}
+import "bytes"
 
 func fullJustify(words []string, maxWidth int) []string {
 	solution := []string{}
