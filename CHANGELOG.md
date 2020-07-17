@@ -596,6 +596,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Two points, traversal equal, increase and decrease then loop
 - The peek is the max of increase and decrease parts
 
+## 0136 - Single Number
+
+- Exclusive Or
+- Twice = nothing
+- It is not necessary to record what numbers not single
+
 ## 0415 - Add strings
 
 - Full adder
