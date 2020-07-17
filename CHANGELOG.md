@@ -579,6 +579,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0130 - Surrounded Regions
+
+- Deep First Search
+- Mark 'O' from bounds
+- Change unmarked 'O' to 'X'
+
 ## 0415 - Add strings
 
 - Full adder
