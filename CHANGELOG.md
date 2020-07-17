@@ -585,6 +585,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Mark 'O' from bounds
 - Change unmarked 'O' to 'X'
 
+## 0134 - Gas Station
+
+- Generate array `R`, $R_i$ means relative gas in tank when the car arrive next gas station
+- `R[i] = R[i] + R[i - 1]`, means the i th gas station is last, relative gas in tank against starting.
+
 ## 0415 - Add strings
 
 - Full adder
