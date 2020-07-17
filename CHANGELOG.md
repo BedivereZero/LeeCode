@@ -590,6 +590,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Generate array `R`, $R_i$ means relative gas in tank when the car arrive next gas station
 - `R[i] = R[i] + R[i - 1]`, means the i th gas station is last, relative gas in tank against starting.
 
+## 0135 - Candy
+
+- Traversal twice, from left and right
+- The peek is the max of left and right
+
 ## 0415 - Add strings
 
 - Full adder
