@@ -622,6 +622,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Traversal once
 - Use **Stack** record second half
 
+## 0160 - Intersection of Two Linked Lists
+
+- Use stack storage node
+
 ## 0415 - Add strings
 
 - Full adder
