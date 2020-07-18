@@ -630,6 +630,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Map
 
+## 0168 - Excel Sheet Column Title
+
+- Base 26
+
 ## 0415 - Add strings
 
 - Full adder
