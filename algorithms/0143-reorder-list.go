@@ -1,16 +1,27 @@
 package algorithms
 
 func reorderList(head *ListNode) {
-	if head == nil || head.Next == nil || head.Next.Next == nil {
+	if head == nil || head.Next == nil {
 		return
 	}
 
-	prev, tail := head, head.Next
-	for tail.Next != nil {
-		prev = prev.Next
-		tail = tail.Next
+	slow, fast := head, head.Next
+	for fast != nil && fast.Next != nil {
+		slow = slow.Next
+		fast = fast.Next.Next
 	}
 
-	head.Next, prev.Next, tail.Next = tail, nil, head.Next
-	reorderList(head.Next.Next)
+	stack := &Stack{}
+	for cur := slow.Next; cur != nil; {
+		stack.push(cur)
+		cur = cur.Next
+	}
+
+	slow.Next = nil
+
+	for cur := head; stack.depth > 0; {
+		n := stack.pop().(*ListNode)
+		cur.Next, n.Next = n, cur.Next
+		cur = cur.Next.Next
+	}
 }
