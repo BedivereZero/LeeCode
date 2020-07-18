@@ -626,6 +626,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Use stack storage node
 
+## 0167 - Two Sum II - Input array is sorted
+
+- Map
+
 ## 0415 - Add strings
 
 - Full adder
