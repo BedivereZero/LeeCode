@@ -611,6 +611,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Two points: slow and fast
 
+## 0142 - Linked List Cycle II
+
+- Three points: x1, x2, x3 speed
+- When `x2 == x3`, The distance x1 travelsal is equal to the length of the cycle
+- Create another point `st` from head, move `st` and `x1` until `st == x1`
+
 ## 0415 - Add strings
 
 - Full adder
