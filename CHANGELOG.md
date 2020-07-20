@@ -647,6 +647,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Count factor 2 & 5
 
+## 0189 - Rotate Array
+
+- Rotate k elements, one time
+
 ## 0415 - Add strings
 
 - Full adder
