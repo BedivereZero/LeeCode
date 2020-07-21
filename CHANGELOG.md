@@ -663,6 +663,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Linary
 
+## 0191 - Number of 1 Bits
+
+- Count every bit
+
 ## 0415 - Add strings
 
 - Full adder
