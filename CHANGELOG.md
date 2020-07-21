@@ -667,6 +667,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Count every bit
 
+## 0198 - House Robber
+
+- Dynamic Programming
+- $F(x) = max(F(x-2) + nums_x, F(x-1))$
+
 ## 0415 - Add strings
 
 - Full adder
