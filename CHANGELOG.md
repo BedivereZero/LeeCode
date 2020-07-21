@@ -544,6 +544,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Connect right of left subtree to the left of right subtree
 - Continue recursivly to left and right subtree, util tree is nil
 
+## 0117 - Populating Next Right Pointers in Each Node II
+
+- Recursion
+- Calculate subtrees
+- Get the rightest point from root.Left via `.Next`
+
 ## 0118 - Pascal's Triangle
 
 - Nothing
