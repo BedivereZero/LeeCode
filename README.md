@@ -3,5 +3,5 @@
 | Difficulty | Resolved | Total |
 | :--------- | :------- | :---- |
 | Easy       | 44       | 492   |
-| Medium     | 70       | 837   |
+| Medium     | 71       | 837   |
 | Hard       | 25       | 328   |

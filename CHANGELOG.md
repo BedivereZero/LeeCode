@@ -585,6 +585,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Mark 'O' from bounds
 - Change unmarked 'O' to 'X'
 
+## 0131 - Palindrome Partitioning
+
+- Deep First Search
+
 ## 0134 - Gas Station
 
 - Generate array `R`, $R_i$ means relative gas in tank when the car arrive next gas station
