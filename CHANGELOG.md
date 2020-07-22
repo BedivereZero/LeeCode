@@ -642,6 +642,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0152 - Maximum Product Subarray
+
+- Dynamic Programming
+- Record maximum and minimum
+
 ## 0160 - Intersection of Two Linked Lists
 
 - Use stack storage node
