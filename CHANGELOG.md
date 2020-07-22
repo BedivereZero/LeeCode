@@ -659,6 +659,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Divide And Conquer
 
+## 0165 - Compare Version Numbers
+
+- Split with `.`
+- `1.0` = `1`
+
 ## 0167 - Two Sum II - Input array is sorted
 
 - Map
