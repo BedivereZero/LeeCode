@@ -647,6 +647,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Dynamic Programming
 - Record maximum and minimum
 
+## 0153 - Find Minimum in Rotated Sorted Array
+
+- Binary Search: pivot
+
 ## 0160 - Intersection of Two Linked Lists
 
 - Use stack storage node
