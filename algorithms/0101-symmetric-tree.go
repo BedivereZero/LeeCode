@@ -8,8 +8,5 @@ func check(l, r *TreeNode) bool {
 }
 
 func isSymmetric(root *TreeNode) bool {
-	if root == nil {
-		return true
-	}
-	return check(root.Left, root.Right)
+	return check(root, root)
 }
