@@ -709,6 +709,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Dynamic Programming
 - $F(x) = max(F(x-2) + nums_x, F(x-1))$
 
+## 0199 - Binary Tree Right Side View
+
+- Search every level
+
 ## 0415 - Add strings
 
 - Full adder
