@@ -538,6 +538,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0115 - Min Stack
+
+- Use sorted list store elements
+
 ## 0116 - Populating Next Right Pointers in Each Node
 
 - Recursion
