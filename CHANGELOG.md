@@ -641,6 +641,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Use Map to store old node to new node
 
+## 0139 - Word Break
+
+- Dynamic Programming
+
 ## 0141 - Linked List Cycle
 
 - Two points: slow and fast
