@@ -609,6 +609,12 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Deep First Search
 
+## 0133 - Clone Graph
+
+- Breadth First Search
+- Use Squeue store nodes to be copied
+- Use Map to store old node to new node
+
 ## 0134 - Gas Station
 
 - Generate array `R`, $R_i$ means relative gas in tank when the car arrive next gas station
