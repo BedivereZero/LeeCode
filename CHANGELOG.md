@@ -645,6 +645,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Dynamic Programming
 
+## 0140 - Word Break II
+
+- Dynamic Programming
+- Store cache
+
 ## 0141 - Linked List Cycle
 
 - Two points: slow and fast
