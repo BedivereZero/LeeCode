@@ -669,6 +669,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0146 - LRU Cache
+
+- Double Linked List
+
 ## 0152 - Maximum Product Subarray
 
 - Dynamic Programming
