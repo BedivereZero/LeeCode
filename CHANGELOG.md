@@ -673,6 +673,14 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Double Linked List
 
+## 0147 - Insertion Sort List
+
+- Use point `cur.Next` traversal list
+- if `cur.Val` less than or equal to `cur.Next.Val`, move `cur` to next.
+- If `cur.Next.Val` is less than or equal to `head.Val`, move `cur.Next` to the head of list.
+- Use point `pos.Next` traversal list until `cur.Next`
+- if `pos.Next.Val` is less than `cur.Next.Val`, move `pos` to next, else insert `cur.Next` after `pos`.
+
 ## 0152 - Maximum Product Subarray
 
 - Dynamic Programming
