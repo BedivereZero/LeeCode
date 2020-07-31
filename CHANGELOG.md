@@ -685,6 +685,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Quick sort
 
+## 0150 - Evaluate Reverse Polish Notation
+
+- Use slice as stack
+
 ## 0152 - Maximum Product Subarray
 
 - Dynamic Programming
