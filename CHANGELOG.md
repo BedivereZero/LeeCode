@@ -689,6 +689,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Use slice as stack
 
+## 0151 - Reverse Words in a String
+
+- Use slice store words
+
 ## 0152 - Maximum Product Subarray
 
 - Dynamic Programming
