@@ -693,6 +693,7 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Use slice store words
 - Use `bytes.Buffer` store string
+- [Golang]: `strings.Fields`, `strings.Join`
 
 ## 0152 - Maximum Product Subarray
 
