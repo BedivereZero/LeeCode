@@ -692,6 +692,7 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0151 - Reverse Words in a String
 
 - Use slice store words
+- Use `bytes.Buffer` store string
 
 ## 0152 - Maximum Product Subarray
 

@@ -1,25 +1,25 @@
 package algorithms
 
+import (
+	"bytes"
+)
+
 func reverseWords(s string) string {
-	stringSlice := []string{}
-	head, tail := 0, 0
-	for ; head < len(s); head = tail {
-		// find word begin
-		for ; head < len(s) && s[head] == ' '; head++ {
-		}
+	var buff bytes.Buffer
+	for h, t := len(s), len(s); t > 0; t = h {
 		// find word end
-		for tail = head; tail < len(s) && s[tail] != ' '; tail++ {
+		for ; t > 0 && s[t-1] == ' '; t-- {
 		}
-		if head < tail {
-			stringSlice = append(stringSlice, s[head:tail])
+		// find word begin
+		for h = t; h > 0 && s[h-1] != ' '; h-- {
+		}
+		// store word, if exists
+		if h < t {
+			if buff.Len() > 0 {
+				buff.WriteByte(' ')
+			}
+			buff.WriteString(s[h:t])
 		}
 	}
-	t := ""
-	for i := len(stringSlice) - 1; i >= 0; i-- {
-		if i < len(stringSlice)-1 {
-			t += " "
-		}
-		t += stringSlice[i]
-	}
-	return t
+	return buff.String()
 }
