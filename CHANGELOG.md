@@ -745,6 +745,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Count factor 2 & 5
 
+## 0173 - Binary Search Tree Iterator
+
+- Use stack store
+
 ## 0189 - Rotate Array
 
 - Rotate k elements, one time
