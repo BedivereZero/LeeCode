@@ -749,6 +749,16 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Use stack store
 
+## 0179 - Largest Number
+
+- Sort numbers
+  - Generate two numbers `ab` and `ba` from `a` and `b`
+  - Compare `ab` and `ba`
+  - If `ab` is less than or equal to `ba`, `a` less `b`
+- Revers numbers
+- Combine numbers to string
+- If string only contains `0`, return `0`
+
 ## 0189 - Rotate Array
 
 - Rotate k elements, one time
