@@ -759,6 +759,19 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 - Combine numbers to string
 - If string only contains `0`, return `0`
 
+## 0187 - Repeated DNA Sequences
+
+- Use map to store sequence status
+  - 0: not exists
+  - 1: unique
+  - 2: duplicated
+- Hash function, string -> uint32
+  - 'A': 0
+  - 'C': 1
+  - 'G': 2
+  - 'T': 3
+- Rotate hash function, caluate hash of `s[i+1:i+11]` from `s[i:i+10]`
+
 ## 0189 - Rotate Array
 
 - Rotate k elements, one time
