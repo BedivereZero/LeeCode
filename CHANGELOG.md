@@ -538,9 +538,9 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
-## 0115 - Min Stack
+## 0115 - Distinct Subsequences
 
-- Use sorted list store elements
+- Dynamic Programming
 
 ## 0116 - Populating Next Right Pointers in Each Node
 
@@ -703,6 +703,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 ## 0153 - Find Minimum in Rotated Sorted Array
 
 - Binary Search: pivot
+
+## 0155 - Min Stack
+
+- Use sorted list store elements
 
 ## 0160 - Intersection of Two Linked Lists
 
