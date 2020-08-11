@@ -577,7 +577,19 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 ## 0123 - Best Time to Buy and Sell Stock III
 
-- Loop two times
+- Define two slice
+  - $F_i$: Maximum profit when selling on day i
+    - $F_0 = 0$
+    - $F_i = \max(P_i - P_{i-1} + F_{i-1}, 0)$
+  - $B_i$: Maximum profit when buying on day i
+    - $B_{len(P) - 1} = 0$
+    - $B_i = \max(P_{i+1} + F_{i+1} - P_i, 0)$
+- Change two slice
+  - $F_i$: The maximum profit of transactions in the previous i days
+    - $F_i = \max(F_{i-1}, F_i), i > 0$
+  - $B_i$: The maximum profit of transactions in the next i days
+    - $B_i = \max(B_{i+1}, B_i), i < len(P) - 1$
+- Max profit: $\max \limits_{i=0}^{len(P)-1} F_i + B_i$
 
 ## 0124 - Binary Tree Maximum Path Sum
 
