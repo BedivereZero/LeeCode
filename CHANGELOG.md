@@ -611,6 +611,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Breadth First Search
 
+## 0128 - Longest Consecutive Sequence
+
+- Use map to store endpoint and phase to the other endpoint
+
 ## 0129 - Sum Root to Leaf Numbers
 
 - Recursion
