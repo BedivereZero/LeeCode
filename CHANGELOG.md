@@ -689,6 +689,10 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Recursion
 
+## 0145 - Binary Tree Postorder Traversal
+
+- Use stack save status
+
 ## 0146 - LRU Cache
 
 - Double Linked List
