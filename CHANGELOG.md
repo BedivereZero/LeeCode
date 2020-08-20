@@ -709,6 +709,13 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Quick sort
 
+## 0149 - Max Points on a Line
+
+- Compare lines between two points
+- Use 2 int number instead 1 float to store slope
+- Two differ 180 degree are same
+- Calculate same points
+
 ## 0150 - Evaluate Reverse Polish Notation
 
 - Use slice as stack
