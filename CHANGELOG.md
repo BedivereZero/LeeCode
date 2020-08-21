@@ -735,6 +735,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Binary Search: pivot
 
+## 0154 - Find Minimum in Rotated Sorted Array II
+
+- Binary Search: pivot
+- Head is equal to tail
+
 ## 0155 - Min Stack
 
 - Use sorted list store elements
