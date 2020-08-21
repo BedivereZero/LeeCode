@@ -747,6 +747,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Divide And Conquer
 
+## 0164 - Maximum Gap
+
+- Bucket Sort
+- Bucket size
+
 ## 0165 - Compare Version Numbers
 
 - Split with `.`
