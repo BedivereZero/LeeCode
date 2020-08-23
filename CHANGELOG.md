@@ -794,6 +794,11 @@ $$Pow({x}, {n})=Pow\left({x}^2, \dfrac{n}{2}\right) * Pow\left(x, n \mod 2\right
 
 - Use stack store
 
+## 0174 - Dungeon Game
+
+- Dynamic Programming
+- Check health point is over 0 all the time
+
 ## 0179 - Largest Number
 
 - Sort numbers
